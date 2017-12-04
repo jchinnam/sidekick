@@ -5,5 +5,6 @@
 includes
 - `commands.txt` for bash commands
 - `bin/` for bash scripts
-	- `clean`
+	- `trash`
+	- `up`
 - `py/` for python scripts

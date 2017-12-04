@@ -82,6 +82,7 @@ $ alias name='command'
 $ alias name='command arg1 arg2'
 $ alias name='/path/to/script'
 $ alias name='/path/to/script.p1 arg1'
+$ vim ~/.bash_aliases
 
 ## unalias
 $ unalias alias_name

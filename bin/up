@@ -2,11 +2,9 @@
 # go up n files
 
 LIMIT=$1
-P=$PWD
 for ((i=1; i <= LIMIT; i++))
 do
-    P=$P/..
+    cd ..
 done
-cd $P
 
 # source: https://stackoverflow.com/questions/188162/what-is-the-most-useful-script-youve-written-for-everyday-life
