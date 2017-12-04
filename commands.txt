@@ -1,8 +1,28 @@
 # make a script executable
 chmod +x /script/path/
 
+# alias
+$ alias # lists all defined aliases
+$ alias name=value
+$ alias name='command'
+$ alias name='command arg1 arg2'
+$ alias name='/path/to/script'
+$ alias name='/path/to/script.p1 arg1'
+
+# unalias
+$ unalias alias_name
+
 # view file contents
 $ cat /file/path
+
+# who is logged in
+$ w
+
+$ current username
+$ whoami
+
+# list open files
+$ lsof
 
 # empty trash
 $ rm -rf ~/.Trash/*
