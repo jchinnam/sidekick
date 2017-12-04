@@ -1,8 +1,9 @@
-# bash-hand
+# sidekick
 
 ### odds and ends to make my life easier
 
 includes
 - commands.txt for all the terminal shortcuts I forget
-- scripts/ for scripts you wish you had
+- bin/ for bash scripts you wish you had
 	- clean
+- py/ for python scripts you wish you had
