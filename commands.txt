@@ -79,3 +79,9 @@ $ history
 
 # custom login message
 $ sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "message"
+
+# git
+$ git status
+$ git commit -a -m "message"
+$ git checkout .
+$ git clone https://repo-link.git
