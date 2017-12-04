@@ -87,6 +87,9 @@ $ vim ~/.bash_aliases
 ## unalias
 $ unalias alias_name
 
+## view ssh host aliases
+$ cat ~/.ssh/config
+
 ## which install are you using
 $ which install_name
 

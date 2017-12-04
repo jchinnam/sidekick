@@ -1,6 +1,5 @@
 #!/bin/bash
-# clean
+# empty trash
 
-# empty the trash
 rm -rf ~/.Trash/*
-echo "Trash emptied."
+echo "sidekick took out the trash."

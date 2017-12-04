@@ -1,5 +1,5 @@
 #!/bin/bash
-# go up n files
+# go up n dirs
 
 LIMIT=$1
 for ((i=1; i <= LIMIT; i++))
