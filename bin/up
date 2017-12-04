@@ -6,5 +6,3 @@ for ((i=1; i <= LIMIT; i++))
 do
     cd ..
 done
-
-# source: https://stackoverflow.com/questions/188162/what-is-the-most-useful-script-youve-written-for-everyday-life
