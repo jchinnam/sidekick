@@ -1,0 +1,58 @@
+# view file contents
+$ cat /file/path
+
+# empty trash
+$ rm -rf ~/.Trash/*
+
+# homebrew
+$ brew doctor
+
+# copy
+$ ditto -V /source/folder/ /dest/folder/
+
+# check uptime
+$ uptime
+
+# start http server on localhost:8000
+$ python -m basic-http-server 8000
+
+# rerun command
+$ !!
+
+# download file
+$ curl -O http://source
+
+# shutdown mac
+$ sudo shutdown -h now
+
+# restart mac
+$ sudo shutdown -r now
+$ sudo shutdown -r +60
+
+# keep mac from sleeping
+$ caffeinate
+$ caffeinate -u -t 600
+
+# make file of specific size
+$ mkfile 1g test.abc
+
+# ping
+$ ping -c 10 www.site.com
+
+# print
+$ echo "words"
+
+# speech functionality
+$ say "words"
+
+# read file
+$ say -f /path/to/file.txt
+
+# view active processes
+$ top
+
+# view recent commands
+$ history
+
+# custom login message
+$ sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "message"
