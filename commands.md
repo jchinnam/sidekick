@@ -1,22 +1,22 @@
 ## bash commands
 
-#### make a script executable
+make a script executable
 ```chmod +x /script/path/```
 
-#### empty trash
+empty trash
 ```$ rm -rf ~/.Trash/*```
 
-#### homebrew
-$ brew doctor
+homebrew
+```$ brew doctor```
 
-#### copy
-$ ditto -V /source/folder/ /dest/folder/
+copy
+```$ ditto -V /source/folder/ /dest/folder/```
 
-#### start http server on localhost:8000
-$ python -m basic-http-server 8000
+start http server on localhost:8000
+```$ python -m basic-http-server 8000```
 
-#### rerun command
-$ !!
+rerun command
+```$ !!```
 
 #### file download
 $ curl -O http://source
