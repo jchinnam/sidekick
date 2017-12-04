@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# empty the trash
+rm -rf ~/.Trash/*
+echo "Trash emptied."

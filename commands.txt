@@ -1,3 +1,6 @@
+# make a script executable
+chmod +x /script/path/
+
 # view file contents
 $ cat /file/path
 
