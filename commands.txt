@@ -2,95 +2,95 @@
 # Janani Chinnam <jchinnam@umich.edu>
 
 # Users
-$ w 									# who is logged in
-$ who 									# who is logged in
-$ whoami								# current logged in user
-$ logname								# current logged in user
-$ finger USER 							# dir info about USER
-$ passwd								# change your password
-$ passwd USER 							# change USER password
-$ groups								# list group membership
+$ w 									    # who is logged in
+$ who 									  # who is logged in
+$ whoami								  # current logged in user
+$ logname								  # current logged in user
+$ finger USER 					  # dir info about USER
+$ passwd								  # change your password
+$ passwd USER 					  # change USER password
+$ groups								  # list group membership
 
 
 # Machines
-$ hostname								# name of this comp
-$ uname	-a								# operating system name
-$ cat /proc/cpuinfo						# CPU size/features
-$ cat /proc/meminfo						# memory size/features
-$ uptime								# time since power on
-$ top									# view active processes/mem use
+$ hostname							  # name of this comp
+$ uname	-a							  # operating system name
+$ cat /proc/cpuinfo			  # CPU size/features
+$ cat /proc/meminfo			  # memory size/features
+$ uptime								  # time since power on
+$ top									    # view active processes/mem use
 
 
 # Files and Folders
-$ ls 									# list directory contents
-$ ls -l 								# include time, size, etc.
-$ ls -a 								# include hidden files
-$ ls -A 								# include hidden files, but not . or ..
-$ ls -t 								# sort by time
-$ ls -ltr 								# newest files last
-$ ls --color 							# colorize output
-$ ls --color=auto 						# colorize output only in tty
-$ ls --human-readable 					# human-readable file sizes
-$ ls --ignore-backups 					# ignore ~ files
-$ ls -R 								# list recursively
-$ tree 									# pretty-print recursively
+$ ls 									    # list directory contents
+$ ls -l 								  # include time, size, etc.
+$ ls -a 								  # include hidden files
+$ ls -A 								  # include hidden files, but not . or ..
+$ ls -t 								  # sort by time
+$ ls -ltr 							  # newest files last
+$ ls --color 						  # colorize output
+$ ls --color=auto 			  # colorize output only in tty
+$ ls --human-readable 	  # human-readable file sizes
+$ ls --ignore-backups 	  # ignore ~ files
+$ ls -R 								  # list recursively
+$ tree 									  # pretty-print recursively
 $ tree --matchdirs -I 'venv3|*pycache*'	# ^ but ignore Python "hidden" stuff
-$ mkdir DIR 							# make a directory
-$ rmdir DIR 							# remove a directory
-$ rm FILE 								# remove a file
-$ rm -r DIR 							# remove directory and files
-$ rm -rf DIR 							# ^ and don't ask any questions
-$ shred -u FILE 						# overwrite file with junk before rm
-$ stat FILE 							# file modification times, etc.
-$ touch FILE 							# create empty file, if not exist
-$ touch FILE 							# update mtime, atime to NOW
-$ mkfile 1g test.abc 					# make file specific size
-$ ditto -V source/ dest/				# copy source to dest
-$ cat /file/path 						# view file contents
+$ mkdir DIR 						  # make a directory
+$ rmdir DIR 						  # remove a directory
+$ rm FILE 							  # remove a file
+$ rm -r DIR 						  # remove directory and files
+$ rm -rf DIR 						  # ^ and don't ask any questions
+$ shred -u FILE 				  # overwrite file with junk before rm
+$ stat FILE 						  # file modification times, etc.
+$ touch FILE 						  # create empty file, if not exist
+$ touch FILE 						  # update mtime, atime to NOW
+$ mkfile 1g test.abc 		  # make file specific size
+$ ditto -V source/ dest/  # copy source to dest
+$ cat /file/path 				  # view file contents
 
 
 # Paths and files and executables
-$ pwd 									# current directory
-$ pwd -P 								# current directory, absolute path
-$ cd 									# change to home directory
-$ cd .. 								# change to directory up
-$ cd DIR 								# change to directory
-$ cd - 									# return to previous dir
-$ which CMD 							# print path to CMD
-$ whereis CMD 							# print all paths to CMD
+$ pwd 									  # current directory
+$ pwd -P 								  # current directory, absolute path
+$ cd 									    # change to home directory
+$ cd .. 								  # change to directory up
+$ cd DIR 								  # change to directory
+$ cd - 									  # return to previous dir
+$ which CMD 						  # print path to CMD
+$ whereis CMD 						# print all paths to CMD
 $ export PATH=$PATH:NEW_DIR 			# add new directory to PATH
-$ type -a CMD 							# include shell functions/aliases
-$ CMD --version							# check version
-$ CMD -v 								# check version
+$ type -a CMD 						# include shell functions/aliases
+$ CMD --version						# check version
+$ CMD -v 								  # check version
 
 
 # Permissions
-$ chmod -x FILE 						# remove execute permissions
-$ chmod +x FILE 						# add execute permissions
+$ chmod -x FILE 					# remove execute permissions
+$ chmod +x FILE 					# add execute permissions
 
 
 # OSX
-$ !!									# rerun a command
-$ sudo shutdown -h now 					# mac shutdown
-$ sudo shutdown -r now 					# mac restart
-$ sudo shutdown -r +60 					# mac restart in 60s
+$ !!									    # rerun a command
+$ sudo shutdown -h now 		# mac shutdown
+$ sudo shutdown -r now 		# mac restart
+$ sudo shutdown -r +60 		# mac restart in 60s
 $ caffeinate							# mac no sleep until ctrl+C
-$ caffeinate -u -t 600					# mac no sleep for 600s
-$ rm -rf ~/.Trash/*						# Empty trash
+$ caffeinate -u -t 600		# mac no sleep for 600s
+$ rm -rf ~/.Trash/*				# Empty trash
 $ open FILE 							# 'double-click' file
-$ pbcopy < FILE 						# copy file contents to clipboard
-$ echo | pbcopy							# copy command output to clipboard
-$ opendiff FILE1 FILE2 [-merge FILE3]	# graphical diff
-$ lsof									# list open files
-$ yes									# stress test
+$ pbcopy < FILE 					# copy file contents to clipboard
+$ echo | pbcopy						# copy command output to clipboard
+$ opendiff FILE1 FILE2 [-merge FILE3]	  # graphical diff
+$ lsof									  # list open files
+$ yes									    # stress test
 $ say "words"							# speech functionality
-$ say -f /path/to/file.txt 				# read file aloud
+$ say -f /path/to/file.txt 	  # read file aloud
 $ sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText "message"				# custom login message
 
 
 # Bash
-$ history								# view recent commands
-$ echo "words"							# print in terminal
+$ history								  # view recent commands
+$ echo "words"						# print in terminal
 
 
 # Homebrew
@@ -106,7 +106,7 @@ $ python -m basic-http-server 8000		# start http server on localhost:8000
 
 # Web
 $ curl -O http://source 				# download file
-$ ping -c 10 www.site.com 				# ping
+$ ping -c 10 www.site.com 			# ping
 
 
 # Git
@@ -116,19 +116,19 @@ $ git checkout .
 $ git clone https://repo-link.git
 
 # Aliases
-$ alias 								# lists all defined aliases
-$ alias name=value						# create val alias
-$ alias name='command'					# create command alias
-$ alias name='command arg1 arg2'		# ^ w args
-$ alias name='/path/to/script'			# create path alias
-$ alias name='/path/to/script.p1 arg1'	# ^ w args
-$ vim ~/.bash_aliases					# edit .bash_alises
-$ unalias alias_name					# unalias
-$ cat ~/.ssh/config						# view ssh host aliases
+$ alias 								          # lists all defined aliases
+$ alias name=value						    # create val alias
+$ alias name='command'					  # create command alias
+$ alias name='command arg1 arg2'  # ^ w args
+$ alias name='/path/to/script'	  # create path alias
+$ alias name='/path/to/script.p1 arg1'	  # ^ w args
+$ vim ~/.bash_aliases					    # edit .bash_alises
+$ unalias alias_name					    # unalias
+$ cat ~/.ssh/config						    # view ssh host aliases
 
 
 # Fun
-$ telnet towel.blinkenlights.nl 				# starwars ascii
-$ cat /usr/share/calendar/calendar.history 		# random history
-$ curl http://wttr.in/ann_arbor 				# ascii weather
+$ telnet towel.blinkenlights.nl 				    # starwars ascii
+$ cat /usr/share/calendar/calendar.history 	# random history
+$ curl http://wttr.in/ann_arbor 				    # ascii weather
 
