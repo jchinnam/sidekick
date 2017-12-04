@@ -1,0 +1,5 @@
+#!/bin/bash
+# sing graduation song (pomp and circumstance)
+
+echo "congratulations!"
+say -v Good "di di di di di di di di di di di di di di di di di di di di di di"

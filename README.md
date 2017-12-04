@@ -7,6 +7,8 @@ includes
 - `bin/` for bash scripts
 	- `trash` empties trash
 	- `up` cd up `n` directories
+	- `snow` for some `*` fun
+	- `graduate` your mac is proud of you
 - `py/` for python scripts
 	- `google` for a quick g search from terminal
 
