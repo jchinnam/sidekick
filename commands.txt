@@ -91,6 +91,7 @@ $ sudo defaults write /Library/Preferences/com.apple.loginwindow LoginwindowText
 # Bash
 $ history								# view recent commands
 $ echo "words"							# print in terminal
+$ source ~/.bash_profile				# reload bash_profile
 
 
 # Homebrew
@@ -114,6 +115,7 @@ $ git status
 $ git commit -a -m "message"
 $ git checkout .
 $ git clone https://repo-link.git
+$ eval "$(ssh-agent -s)"				# git permission denied (publickey) error solution (aka start ssh agent) from https://help.github.com/articles/error-permission-denied-publickey/
 
 # Aliases
 $ alias									# lists all defined aliases
