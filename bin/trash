@@ -1,5 +1,5 @@
 #!/bin/bash
 # empty trash
 
-rm -rf ~/.Trash/*
+rm -r ~/.Trash/*
 echo "sidekick took out the trash."
