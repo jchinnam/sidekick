@@ -4,11 +4,13 @@
 import webbrowser
 import sys
 
-search_phrase = ""
-for i in range(1, len(sys.argv)):
-    search_phrase += " "
-    search_phrase += sys.argv[i]
+query = ""
 
-url = "https://www.google.com/search?q={}".format(search_phrase)
+for i in range(1, len(sys.argv)):
+    query += " "
+    query += sys.argv[i]
+
+url = "https://www.google.com/search?q={}".format(query)
+
 b = webbrowser.get('safari')
 b.open(url)
