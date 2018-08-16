@@ -1,5 +1,6 @@
 #!/bin/bash
 # sing graduation song (pomp and circumstance)
+# requires OS X 10.11 or older
 
 echo "congratulations!"
 say -v Good "di di di di di di di di di di di di di di di di di di di di di di"

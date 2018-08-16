@@ -8,7 +8,6 @@ includes
 	- `trash` empties trash
 	- `up` cd up `n` directories
 	- `snow` for some `*` fun
-	- `graduate` your mac is proud of you (requires OS X 10.11 or older)
 - `py/` for python scripts
 	- `google` for a g search from the command line
 	- `convert` for image conversion
