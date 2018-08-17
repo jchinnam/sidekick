@@ -11,8 +11,10 @@ includes
 	- `up` cd up `n` directories
 	- `snow` for some `*` fun
 - `py/` for python scripts
-	- `google` for a g search from the command line
+	- `google` for a simple g search from the command line
 	- `convert` for image conversion
-	- `space_station` to see where ISS is right now
+	- `space_station` for live international space station coords
+	- `pokemon` for a hello from a random friend
+	- `xkcd` to see today's comic
 
 feel free to adopt/share!
