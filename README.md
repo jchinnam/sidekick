@@ -13,6 +13,7 @@ includes
 - `py/` for python scripts
 	- `google` for a simple g search from the command line
 	- `convert` for image conversion
+	- `reddit_user` to search available usernames
 	- `space_station` for live international space station coords
 	- `pokemon` for a hello from a random friend
 	- `xkcd` to see today's comic
