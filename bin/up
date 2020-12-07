@@ -1,7 +1,15 @@
 #!/bin/bash
+# usage: up n (n defaults to 1)
 # go up n dirs
 
 LIMIT=$1
+
+# if no argument
+if [ $# -eq 0 ]
+  then
+    LIMIT=1
+fi
+
 for ((i=1; i <= LIMIT; i++))
 do
     cd ..
