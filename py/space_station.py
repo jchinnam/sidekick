@@ -1,5 +1,6 @@
 #!/usr/bin/python
-# print current location of the international space station
+# see current location of the international space station
+# usage: python space_station.py
 
 import urllib.request as request
 import json

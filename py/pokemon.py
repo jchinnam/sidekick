@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # a random pokemon says hello
+# usage: python pokemon.py
 
 import requests
 import random

@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # google something
+# usage: python google.py [search query]
+# i.e. python google.py pizza near me
 
 import webbrowser
 import sys

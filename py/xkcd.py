@@ -1,5 +1,6 @@
 #!/usr/bin/python
-# grab today's xkcd comic
+# grab & open today's xkcd comic
+# usage: python xkcd.py
 
 from PIL import Image
 import urllib.request as req
