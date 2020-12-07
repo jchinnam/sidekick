@@ -4,7 +4,16 @@
 import requests
 import random
 
-rand_pokemon_id = random.randint(1,721)  # from 1 to 720, inclusive
+# get total num of pokemon to date
+url = "https://pokeapi.co/api/v2/pokedex/national"
+
+payload = ""
+response = requests.request("GET", url, data=payload)
+all_pokemon = response.json()
+
+num_pokemon = len(all_pokemon["pokemon_entries"])
+
+rand_pokemon_id = random.randint(1,num_pokemon - 1)  # from 1 to num_pokemon, inclusive
 
 url = "http://pokeapi.co/api/v2/pokemon/" + str(rand_pokemon_id) + "/"
 
