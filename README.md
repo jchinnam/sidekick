@@ -11,11 +11,8 @@ includes
 	- `up` cd up `n` directories
 	- `snow` for some `*` fun
 - `py/` for python scripts
-	- `google` for a simple g search from the command line
+	- `google` for g search from the command line
 	- `convert` for image conversion
-	- `reddit_user` to search available usernames
 	- `space_station` for live international space station coords
-	- `pokemon` for a hello from a random friend
+	- `pokemon` for a hello from a friend
 	- `xkcd` to see today's comic
-
-feel free to adopt/share!
