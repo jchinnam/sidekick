@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# google something
+# google something from the command line
 # usage: python google.py [search query]
 # i.e. python google.py pizza near me
 

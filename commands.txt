@@ -1,5 +1,4 @@
 # commands.txt
-# Janani Chinnam <jchinnam@umich.edu>
 
 # Users
 $ w                                     # who is logged in
@@ -133,4 +132,3 @@ $ cat ~/.ssh/config                     # view ssh host aliases
 $ telnet towel.blinkenlights.nl             # starwars ascii
 $ cat /usr/share/calendar/calendar.history  # random history
 $ curl http://wttr.in/ann_arbor             # ascii weather
-
