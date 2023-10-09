@@ -12,6 +12,9 @@ these notes are for the Huoji CQ63 60%
 ### remap other keys
 - in Simple Modifications ![](/img/keyboard_remappings.png)
 
+### special remaps
+- in Complex Modifications install the following modifications ![](/img/keyboard_complex_remappings.png)
+
 ## set RBG
 this was the original keyboard layout, before swapping any keys
 ![](/img/huoji.jpg)
