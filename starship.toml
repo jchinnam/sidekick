@@ -31,4 +31,7 @@ disabled = true
 symbol = " "
 style = "bold 209"
 
+[docker_context]
+format = 'via [🐋 $context](blue bold)'
+disabled = false
 

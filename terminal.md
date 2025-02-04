@@ -1,11 +1,14 @@
 # terminal
 ## get iterm2
 - download and install [iTerm2](https://iterm2.com/)
+- Settings > Appearance > Theme: Minimal
 
 ### set up profile
 - set up a new profile, "Banana", set it as default profile
-  - in Preferences > General > Basics: set Title to Name
-  - in Preferences > Colors > Color Presents: Import (stored in `iterm2/Banana.json`)
+  - in Preferences > General > Basics: set Title to Session Name
+  - in Preferences > Window: set Transparency to 9
+  - in Preferences > Window: check Blur and set to 13
+  - in Preferences > Colors > Color Presents: Import (stored in `iterm2/banana.itermcolors`)
   ![](/img/iterm2_profile_colors.png)
 
 ### add custom font
