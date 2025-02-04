@@ -26,12 +26,13 @@ precmd() {
 ```
 
 ## add [starship](https://starship.rs/)
+- install with `curl -sS https://starship.rs/install.sh | sh`
 - create and populate `starship.toml`, lives at `~/.config/starship.toml`
-  - see https://starship.rs/config/ to get started
+  - see https://starship.rs/config/ to get started from scratch
     - styling strings: https://starship.rs/advanced-config/#style-strings
     - icons for module symbols: https://www.nerdfonts.com/cheat-sheet
-  - or copy from `/starship.toml`
-- add to `zshrc`
+  - or copy from `/starship.toml` in this repo
+- add to `zshrc`:
 ```bash
 eval "$(starship init zsh)"
 ```
