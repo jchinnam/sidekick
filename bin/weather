@@ -1,0 +1,7 @@
+#!/bin/bash
+# usage: weather <city>
+# displays the current weather for a given city
+
+CITY="$1"
+weather=$(curl -s "wttr.in/$CITY?format=3")
+echo "$weather"

@@ -16,9 +16,10 @@ I don't typically set the theme anymore as the default Dark theme is pretty good
   - Keyword param: Editor > Color Scheme > Python > Keyword Argument
 
 ### configure menus
-- Turn on Local Changes menu: Preferences > Version Control > Commit: Uncheck "use non-modal commit interface"
-- Right click on menu bar at the top (where repo name is listed) and choose "Customize Toolbar". Under the "Left" section, add:
+- Turn on Local Changes menu: Preferences > Version Control > Commit: Uncheck "use non-modal commit interface" ([source](https://stackoverflow.com/questions/63942404/how-to-turn-on-local-changes-default-changelist-for-git-in-intellij))
+- Customize main toolbar: Right click on menu bar at the top (where repo name is listed) and choose "Customize Toolbar". Under the "Left" section, add:
   - Version Control Systems button: Update Project 
-  - Version Control Systems > Git buttons: Update Project, Push, Show History
+  - Version Control Systems > Git buttons: Push, Show History
+  - Separator
   - Main Menu > Navigate buttons: Back, Forward
   ![](/img/ide_main_toolbar_settings.png)

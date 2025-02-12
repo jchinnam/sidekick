@@ -1,0 +1,10 @@
+#!/bin/bash
+# usage: dupe <file>
+# creates a duplicate of the specified file with a "_copy" suffix
+
+if [ -f "$1" ]; then
+    cp "$1" "${1%.*}_copy.${1##*.}"
+    echo "File '$1' duplicated as '${1%.*}_copy.${1##*.}'"
+else
+    echo "File '$1' does not exist."
+fi
