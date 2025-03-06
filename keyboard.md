@@ -4,6 +4,7 @@ these notes are for the Huoji CQ63 60%
 - download and install [karabiner-elements](https://karabiner-elements.pqrs.org/) (have `v14.12.0`) open source [here](https://github.com/pqrs-org/Karabiner-Elements)
 - it may ask for the following access
 ![](/img/karabiner_settings.png)
+- if Mac asks for the keyboard type--choose ISO (not ANSI)
 
 ### remap function keys
 - in Function Keys
@@ -11,9 +12,6 @@ these notes are for the Huoji CQ63 60%
 
 ### remap other keys
 - in Simple Modifications ![](/img/keyboard_remappings.png)
-
-### special remaps
-- in Complex Modifications install the following modifications ![](/img/keyboard_complex_remappings.png)
 
 ## set RBG
 this was the original keyboard layout, before swapping any keys
